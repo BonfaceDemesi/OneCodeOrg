@@ -144,6 +144,7 @@ width:700px;
 }
 .how_it_works_content {
    width:80%;
+   background-color:red;
 }
 .how_it_works .heading p{
     margin-top: 80px;
