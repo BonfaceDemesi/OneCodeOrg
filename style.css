@@ -87,7 +87,6 @@ main {
     align-items: center;
     width: 80%;
     max-width: auto;
-    gap:40px;
  
 }
 
@@ -146,7 +145,8 @@ gap:30px;
 }
 .illustration img  {
 width:100%;
-width:600px;
+width:500px;
+padding: 15px 50px
 }
 
 
@@ -190,7 +190,7 @@ width:600px;
 }
 .how_it_works .how_container .how_container_details img{
     width: 400px;
-    width: 200px;
+    width: 150px;
     height: 60px;
     margin:auto;
 }
