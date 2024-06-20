@@ -10,10 +10,6 @@ body {
     font-family: "poppins", sans-serif;
    
     }
-.main1{
-   background-color:#f4f7fe;
-}
-
 header {
     display: flex;
     justify-content: space-between;
