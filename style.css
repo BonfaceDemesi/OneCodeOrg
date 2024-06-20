@@ -111,7 +111,7 @@ margin-left:100px;
 .buttons .btn1 {
     padding: 15px 50px;
     margin-right: 10px;
-    background-color: orange;
+    background-color: #f94d00;
     color: #ffffff;
     border: none;
     cursor: pointer;
@@ -121,7 +121,7 @@ margin-left:100px;
 }
 .buttons .btn2 {
 background-color:transparent;
-border: 1px solid orange;
+border: 1px solid #f94d00;
 padding: 15px 50px;
 margin-right: 10px;
 color: blue;
