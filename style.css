@@ -86,8 +86,7 @@ main {
     display: flex;
     align-items: center;
     width: 90%;
-    max-width: auto;
- 
+    max-width: auto; 
 }
 
 .text-buttons {
