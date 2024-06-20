@@ -159,7 +159,7 @@ width:700px;
 .how_it_works .heading h2{
     text-align: center;
     margin-bottom: 20px;
-    color: #e9490f;
+    color: #f94d00;
    
 }
 .how_it_works .how_container{
@@ -208,20 +208,21 @@ width:700px;
   text-align: center;
 }
 
-.header {
+.header1 {
   margin-bottom: 2rem;
 }
 
-.header p {
+.header1 p {
   letter-spacing: 2px;
   font-size: 1rem;
   font-weight: 500;
 }
 
-.header h1 {
+.header1 h1 {
   font-family: "Noto Serif", serif;
   font-size: 2rem;
   font-weight: 900;
+  color:#f94d00;
 }
 
 .testimonials__grid {
