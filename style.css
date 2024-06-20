@@ -85,7 +85,7 @@ main {
 .main-content {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 90%;
     max-width: auto;
     background-color:red;
  
