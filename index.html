@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ena Coach</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+   
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1px 10px;
+    color: #000; /* Adjust this to ensure readability */
+    margin: auto;
+    width: 85%;
+    box-sizing: border-box;
+    height:80px;
+}
+hr{
+color:#1a2c50;
+font-size:-10rem}
+
+
+.logo p {
+    height: 50px;
+    font-size:2rem;
+    font-weight:600;
+    margin-left:100px;
+    color:#f94d00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+    margin-left:20px;
+}
+nav ul li a button {
+padding:3px 5px;
+border-radius:5px;
+border:1px solid orange;
+background-color:#f94d00;
+color:white;
+font-size:1.2rem;
+font-weight:400
+}
+
+nav ul li a:hover {
+    color:orange;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); /* Adjust based on header/footer height */
+    background-color:#f4f7fe;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: auto;
+ 
+}
+
+.text-buttons {
+    max-width: 50%;
+}
+
+.text-buttons h1 {
+    margin-bottom: 20px;
+    font-size: 37px;
+    letter-spacing: 4px;
+    margin-left:100px;
+}
+.text-buttons p {
+margin-left:100px;
+}
+
+.buttons button {
+    padding: 15px 35px;
+    margin-right: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:1.3rem;
+    font-weight:400;
+}
+.buttons button .inactive {
+background-color:transparent;
+color:;
+}
+.buttons{
+margin-left:100px;
+padding-top:27px;
+}
+.buttons button:hover {
+    background-color: blue;
+}
+
+.illustration{
+    max-width: 100%;
+    height: auto;
+}
+.illustration img  {
+width:100%;
+width:700px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>ENA COACH</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#register"><button>Login/Register</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr/>
+
+    <main>
+        <div class="main-content">
+            <div class="text-buttons">
+                <h1>Your Trustee in Logistics, exemplary service. </h1>
+                <p>At Ena Coach, We offer a range of courier services including road transport, shipping and flight-cargos. You will have the opportunity to choose in between a range of services, pricing and budgets</p>
+                <div class="buttons">
+                    <button>Learn More</button>
+                    <button><r class="inactive">Contact Us</r></button>
+                </div>
+            </div>
+            <div class="illustration">
+                <img src="https://img.freepik.com/free-vector/internet-store-goods-international-shipment_335657-2454.jpg?t=st=1718530302~exp=1718533902~hmac=ff579ca4f37f41b312f04c2441a1397ce964f6656ed512f29f6a032559743f68&w=1380" alt="Vehicle Illustration">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Logistics Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
