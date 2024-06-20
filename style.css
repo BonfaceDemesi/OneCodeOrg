@@ -141,6 +141,7 @@ width:700px;
 /*how it works section*/
 .how_it_works{
     background: #f4f7fe;
+   margin-top:-20px;
 }
 .how_it_works .heading p{
     margin-top: 80px;
