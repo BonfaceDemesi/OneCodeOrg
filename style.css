@@ -1,0 +1,152 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+   
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1px 10px;
+    color: #000; /* Adjust this to ensure readability */
+    margin: auto;
+    width: 85%;
+    box-sizing: border-box;
+    height:80px;
+}
+hr{
+color:#1a2c50;
+font-size:-10rem}
+
+
+.logo p {
+    height: 50px;
+    font-size:2rem;
+    font-weight:600;
+    margin-left:100px;
+    color:#f94d00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+    margin-left:20px;
+}
+nav ul li a button {
+padding:3px 5px;
+border-radius:5px;
+background-color:#f94d00;
+color:white;
+font-size:1.2rem;
+font-weight:400
+}
+nav ul li a button:hover {
+    border: 1px solid blue;
+}
+
+nav ul li a:hover {
+    color:orange;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); /* Adjust based on header/footer height */
+    background-color:#f4f7fe;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: auto;
+ 
+}
+
+.text-buttons {
+    max-width: 50%;
+}
+
+.text-buttons h1 {
+    margin-bottom: 20px;
+    font-size: 37px;
+    letter-spacing: 4px;
+    margin-left:100px;
+}
+.text-buttons p {
+margin-left:100px;
+}
+
+.buttons .btn1 {
+    padding: 15px 50px;
+    margin-right: 10px;
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:1.3rem;
+    font-weight:400;
+}
+.buttons .btn2 {
+background-color:transparent;
+border: 1px solid orange;
+padding: 15px 50px;
+margin-right: 10px;
+color: blue;
+cursor: pointer;
+border-radius:5px;
+font-size:1.3rem;
+font-weight:400;
+}
+.buttons{
+margin-left:100px;
+padding-top:27px;
+gap:30px;
+}
+.buttons .btn1:hover {
+    border: 1px solid blue;
+}
+
+.illustration{
+    max-width: 100%;
+    height: auto;
+}
+.illustration img  {
+width:100%;
+width:700px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
