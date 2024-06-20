@@ -190,7 +190,7 @@ width:700px;
 
 
 /*Testimonial*/
-body1 {
+.nav1 {
   /* font-family: 'Noto Serif', serif; */
   font-family: "Poppins", sans-serif;
   color: var(--primary-color);
@@ -277,14 +277,14 @@ body1 {
   color: var(--primary-color);
 }
 
-.footer h4 {
+.footer1 h4 {
   font-family: "Noto Serif", serif;
   font-size: 1.25rem;
   font-weight: 900;
   margin-bottom: 1rem;
 }
 
-.footer p {
+.footer1 p {
   max-width: 450px;
   margin: auto;
   font-size: 0.9rem;
@@ -292,7 +292,7 @@ body1 {
   margin-bottom: 2rem;
 }
 
-.footer button {
+.footer1 button {
   padding: 1rem 2rem;
   outline: none;
   border: none;
@@ -316,6 +316,7 @@ body1 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 footer {
     text-align: center;
     padding: 10px 0;
