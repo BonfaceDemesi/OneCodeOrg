@@ -20,9 +20,10 @@ body {
 .navigation{
     display: flex;
     justify-content: space-between;
-    height: 8vh;
+    height: 6vh;
     background: rgb(0,0,0,0.7);
     margin: auto;
+   width:97%;
 }
 nav{
     display: flex;
@@ -63,7 +64,7 @@ nav{
     color: #fff;
     background: #e9490f;
     font-size: 1.2rem;
-    height: 8vh;
+    height: 6vh;
     width: 150px;
     justify-content: center;
     align-items: center;
