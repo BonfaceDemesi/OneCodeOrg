@@ -23,7 +23,9 @@ body {
     height: 6vh;
     background: rgb(0,0,0,0.7);
     margin: auto;
-   width:100%;
+    top: 0;
+    left: 0; 
+    right: 0;
 }
 nav{
     display: flex;
@@ -207,6 +209,7 @@ padding-left: 10px;
 .how_it_works{
     background: #f4f7fe;
    margin-top:-80px;
+   width:80%
 }
 .how_it_works .heading p{
     margin-top: 80px;
