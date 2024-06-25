@@ -16,6 +16,58 @@ body {
     font-family: "poppins", sans-serif;
    
     }
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background: rgb(0,0,0,0.7);
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background: #fff;  
+}
+.section_1{
+    display: flex;
+    align-items: center;
+    height: 82vh;
+    background: #f2f2f2;
+}
+.navigation .part_1{
+    display: flex;
+    gap: 30px;
+    color: #97a7b7;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.navigation .part_2{
+    display: inline-flex;
+    gap: 30px;
+    color: #fff;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.navigation .part_2 .login{
+    outline: none;
+    border: none;
+    color: #97a7b7;
+    background: transparent;
+    font-size: 1.2rem;
+}
+.navigation .part_2 .start{
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #e9490f;
+    font-size: 1.2rem;
+    height: 8vh;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
 header {
     display: flex;
     justify-content: space-between;
