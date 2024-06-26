@@ -22,34 +22,48 @@
   .navigation {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 6vh;
     background: rgba(0, 0, 0, 0.7);
+    margin: auto;
     width: 100%;
-    padding: 10px;
-    color: #fff;
   }
 
-  .navigation .part_1,
-  .navigation .part_2 {
+  .navigation .part_1 {
     display: flex;
     gap: 30px;
+    color: #97a7b7;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-left: 50px;
+  }
+
+  .navigation .part_2 {
+    display: inline-flex;
+    gap: 30px;
+    color: #fff;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-left: 50px;
+  }
+
+  .navigation .part_2 .login {
+    outline: none;
+    border: none;
+    color: #97a7b7;
+    background: transparent;
     font-size: 1.2rem;
   }
 
-  .navigation .part_2 .login,
   .navigation .part_2 .start {
     outline: none;
     border: none;
-    font-size: 1.2rem;
-  }
-
-  .navigation .part_2 .start {
-    background: #e9490f;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    background: #e9490f;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
   }
 
   header {
@@ -59,14 +73,17 @@
     background-color: white;
     padding: 10px;
     color: #000;
-    width: 90%;
     margin: auto;
+    width: 90%;
+    box-sizing: border-box;
     height: 80px;
   }
 
   .logo p {
+    height: 50px;
     font-size: 2rem;
     font-weight: 600;
+    margin-left: 100px;
     color: #f94d00;
   }
 
@@ -87,14 +104,12 @@
   }
 
   nav ul li a button {
-    padding: 8px 15px;
+    padding: 3px 5px;
     border-radius: 5px;
     background-color: #f94d00;
-    color: #fff;
+    color: white;
     font-size: 1.2rem;
     font-weight: 400;
-    border: none;
-    cursor: pointer;
   }
 
   nav ul li a button:hover {
@@ -110,7 +125,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 120px);
+    height: calc(100vh - 120px); /* Adjust based on header/footer height */
     background-color: #f4f7fe;
   }
 
@@ -118,8 +133,7 @@
     display: flex;
     align-items: center;
     width: 85%;
-    max-width: 1200px;
-    margin: auto;
+    max-width: auto;
   }
 
   .text-buttons {
@@ -127,10 +141,10 @@
   }
 
   .text-buttons h1 {
+    margin-bottom: 20px;
     font-size: 37px;
     letter-spacing: 4px;
-    color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-left: 100px;
   }
 
   .text-buttons h1 b {
@@ -138,57 +152,72 @@
   }
 
   .text-buttons p {
-    color: var(--text-dark);
-  }
-
-  .buttons {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-  }
-
-  .buttons .btn1,
-  .buttons .btn2 {
-    padding: 15px 50px;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    font-weight: 400;
-    cursor: pointer;
+    margin-left: 100px;
   }
 
   .buttons .btn1 {
+    padding: 15px 50px;
+    margin-right: 10px;
     background-color: #f94d00;
     color: #ffffff;
     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .buttons .btn2 {
+    background-color: transparent;
+    border: 1px solid #f94d00;
+    padding: 15px 50px;
+    margin-right: 10px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .buttons {
+    margin-left: 100px;
+    padding-top: 27px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
   }
 
   .buttons .btn1:hover {
     border: 1px solid blue;
   }
 
-  .buttons .btn2 {
-    background-color: transparent;
-    border: 1px solid #f94d00;
-    color: #f94d00;
+  .illustration {
+    max-width: 100%;
+    height: auto;
+    background-color: red;
   }
 
   .illustration img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-width: 500px;
     padding-left: 10px;
   }
 
-  /* How it works section */
-
+  /* How It Works section */
   .how_it_works {
     background: #f4f7fe;
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align content */
     margin-top: -80px;
-    padding: 40px 0;
+  }
+
+  .how_it_works .heading {
+    margin-bottom: 40px; /* Adjust margin to space out elements */
   }
 
   .how_it_works .heading p {
-    font-size: 1.3rem;
     color: grey;
+    font-size: 1.3rem;
   }
 
   .how_it_works .heading h2 {
@@ -203,13 +232,9 @@
     max-width: 1200px;
     margin: auto;
     gap: 20px;
-    padding: 20px;
+    padding: 25px;
     background: #fff;
     border-radius: 10px;
-  }
-
-  .how_it_works .how_container .how_container_details {
-    text-align: center;
   }
 
   .how_it_works .how_container .how_container_details p {
@@ -219,13 +244,13 @@
   }
 
   .how_it_works .how_container .how_container_details img {
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     height: 60px;
     margin: auto;
   }
 
-  /* Testimonial */
-
+  /* Testimonial section */
   .nav1 {
     font-family: "Poppins", sans-serif;
     color: var(--primary-color);
@@ -233,7 +258,6 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 
   .section__container {
@@ -249,20 +273,20 @@
   }
 
   .header1 p {
+    letter-spacing: 2px;
     font-size: 1rem;
     font-weight: 500;
-    letter-spacing: 2px;
   }
 
   .header1 h1 {
-    font-family: "Noto Serif", serif;
+    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: 900;
     color: #f94d00;
-    margin-bottom: 20px;
   }
 
   .testimonials__grid {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -271,13 +295,12 @@
 
   .card {
     padding: 2rem;
+    display: grid;
+    gap: 1rem;
     background-color: var(--extra-light);
     border-radius: 5px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .card i {
@@ -341,8 +364,8 @@
 
   .footer1 button {
     padding: 1rem 2rem;
-    border: none;
     outline: none;
+    border: none;
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--extra-light);
@@ -365,12 +388,13 @@
 
     .buttons {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
+      margin-left: 0;
     }
 
     .buttons .btn1,
     .buttons .btn2 {
-      margin-bottom: 10px;
+      margin-top: 10px;
     }
   }
 </style>
