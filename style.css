@@ -1,9 +1,10 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --primary-color: #1a2c50;
@@ -23,9 +24,8 @@ body {
     height: 6vh;
     background: rgb(0,0,0,0.7);
     margin: auto;
-    top: 0;
-    left: 0; 
-    right: 0;
+    width:100%
+   
 }
 nav{
     display: flex;
@@ -106,7 +106,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     margin-left:20px;
@@ -206,9 +206,8 @@ padding-left: 10px;
 
 /*how it works section*/
 .how_it_works{
-    background: #f4f7fe;
+   background: #f4f7fe;
    margin-top:-80px;
-   width:80%
 }
 .how_it_works .heading p{
     margin-top: 80px;
