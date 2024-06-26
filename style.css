@@ -13,44 +13,45 @@
   --text-light: #767268;
   --extra-light: #ffffff;
 }
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 body {
-    font-family: "poppins", sans-serif;
-   
-    }
+    font-family: "Poppins", sans-serif;
+}
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     height: 6vh;
-    background: rgb(0,0,0,0.7);
-    margin: auto;
-    width:100%
-   
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%; /* Ensure it stretches to full width */
 }
-.navigation .part_1{
+
+.navigation .part_1,
+.navigation .part_2 {
     display: flex;
     gap: 30px;
     color: #97a7b7;
-    margin: auto;
     font-size: 1.2rem;
-    margin-left:50px;
+    margin: auto 50px;
 }
-.navigation .part_2{
-    display: inline-flex;
-    gap: 30px;
+
+.navigation .part_2 {
     color: #fff;
-    margin: auto;
-    font-size: 1.2rem;
-    margin-left:50px;
 }
-.navigation .part_2 .login{
+
+.navigation .part_2 .login {
     outline: none;
     border: none;
     color: #97a7b7;
     background: transparent;
     font-size: 1.2rem;
 }
-.navigation .part_2 .start{
+
+.navigation .part_2 .start {
     outline: none;
     border: none;
     color: #fff;
@@ -58,9 +59,11 @@ body {
     font-size: 1.2rem;
     height: 6vh;
     width: 150px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -68,22 +71,21 @@ header {
     background-color: white;
     padding: 1px 10px;
     color: #000; /* Adjust this to ensure readability */
-    margin: auto;
-    width: 90%;
+    width: 100%; /* Ensure it stretches to full width */
+    height: 80px;
     box-sizing: border-box;
-    height:80px;
 }
-hr{
-color:#1a2c50;
-font-size:-10rem}
 
+hr {
+    color: #1a2c50;
+}
 
 .logo p {
     height: 50px;
-    font-size:2rem;
-    font-weight:600;
-    margin-left:100px;
-    color:#f94d00;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 100px;
+    color: #f94d00;
 }
 
 nav ul {
@@ -99,22 +101,24 @@ nav ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 20px;
-    margin-left:20px;
+    margin-left: 20px;
 }
+
 nav ul li a button {
-padding:3px 5px;
-border-radius:5px;
-background-color:#f94d00;
-color:white;
-font-size:1.2rem;
-font-weight:400
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #f94d00;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
+
 nav ul li a button:hover {
     border: 1px solid blue;
 }
 
 nav ul li a:hover {
-    color:orange;
+    color: orange;
 }
 
 main {
@@ -123,14 +127,13 @@ main {
     justify-content: center;
     align-items: center;
     height: calc(100vh - 120px); /* Adjust based on header/footer height */
-    background-color:#f4f7fe;
+    background-color: #f4f7fe;
 }
 
 .main-content {
     display: flex;
     align-items: center;
     width: 85%;
-    max-width: auto;
 }
 
 .text-buttons {
@@ -141,14 +144,21 @@ main {
     margin-bottom: 20px;
     font-size: 37px;
     letter-spacing: 4px;
-    margin-left:100px;
+    margin-left: 100px;
 }
+
 .text-buttons h1 b {
-   color:#f94d00;
-      }
+    color: #f94d00;
+}
 
 .text-buttons p {
-margin-left:100px;
+    margin-left: 100px;
+}
+
+.buttons {
+    margin-left: 100px;
+    padding-top: 27px;
+    gap: 30px;
 }
 
 .buttons .btn1 {
@@ -159,41 +169,36 @@ margin-left:100px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size:1.3rem;
-    font-weight:400;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
+
 .buttons .btn2 {
-background-color:transparent;
-border: 1px solid #f94d00;
-padding: 15px 50px;
-margin-right: 10px;
-color: blue;
-cursor: pointer;
-border-radius:5px;
-font-size:1.3rem;
-font-weight:400;
+    background-color: transparent;
+    border: 1px solid #f94d00;
+    padding: 15px 50px;
+    margin-right: 10px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
-.buttons{
-margin-left:100px;
-padding-top:27px;
-gap:30px;
-}
+
 .buttons .btn1:hover {
     border: 1px solid blue;
 }
 
-.illustration{
+.illustration {
     max-width: 100%;
     height: auto;
-    background-color:red;
-}
-.illustration img  {
-width:100%;
-width:500px;
-padding-left: 10px;
 }
 
-
+.illustration img {
+    width: 100%;
+    width: 500px;
+    padding-left: 10px;
+}
 /*how it works section*/
 .how_it_works{
    background: #f4f7fe;
