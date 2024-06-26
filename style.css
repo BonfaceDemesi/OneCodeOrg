@@ -74,7 +74,7 @@ header {
 .header-container {
  display:flex;
  width:80%; 
- background-color:red;
+ background-color:white;
  justify-content: space-between;
  align-items: center;
  height: 70px;
