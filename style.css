@@ -65,19 +65,20 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 1px 10px;
-    color: #000; /* Adjust this to ensure readability */
     width: 100%; /* Ensure it stretches to full width */
-    height: 80px;
+    height: 70px;
     box-sizing: border-box;
 }
 .header-container {
+ display:flex;
  width:80%; 
  background-color:red;
+ justify-content: space-between;
+ align-items: center;
+ height: 70px;
+ padding: 1px 10px;
+ color: #000;
+ box-sizing: border-box;
 }
 
 hr {
