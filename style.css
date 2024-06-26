@@ -134,7 +134,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Ensure spacing between text and image */
-    width: 100%;
+    width: 96%;
     max-width: 1200px; /* Constrain maximum width */
     gap: 50px; /* Add space between text and image */
 }
@@ -193,15 +193,17 @@ main {
 }
 
 .illustration {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
 .illustration img {
     width: 100%;
-    width: 500px;
-    padding-left: 10px;
+    max-width: 500px; /* Limit maximum width of the image */
+    height: auto;
+    padding-left: 0; /* Remove left padding */
 }
+
 /*how it works section*/
 .how_it_works{
    background: #f4f7fe;
