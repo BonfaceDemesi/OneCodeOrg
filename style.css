@@ -33,6 +33,7 @@ body {
     color: #97a7b7;
     margin: auto;
     font-size: 1.2rem;
+    margin-left:20px;
 }
 .navigation .part_2{
     display: inline-flex;
