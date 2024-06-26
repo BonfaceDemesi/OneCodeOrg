@@ -76,7 +76,8 @@ header {
     box-sizing: border-box;
 }
 .header-container {
- width:70%; 
+ width:80%; 
+ background-color:red;
 }
 
 hr {
