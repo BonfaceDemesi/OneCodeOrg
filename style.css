@@ -214,17 +214,17 @@
   .how_it_works .heading {
     margin-bottom: 40px; /* Adjust margin to space out elements */
   }
-
-  .how_it_works .heading p {
+.how_it_works .heading p{
+    margin-top: 80px;
+    text-align: center;
     color: grey;
     font-size: 1.3rem;
-  }
-
-  .how_it_works .heading h2 {
-    color: #f94d00;
-    font-size: 2.5rem;
+}
+.how_it_works .heading h2{
+    text-align: center;
     margin-bottom: 20px;
-  }
+    color: #f94d00;   
+}
 
   .how_it_works .how_container {
     display: grid;
@@ -251,150 +251,140 @@
   }
 
   /* Testimonial section */
-  .nav1 {
-    font-family: "Poppins", sans-serif;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.nav1 {
+  /* font-family: 'Noto Serif', serif; */
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
-  .section__container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 1rem;
-    text-align: center;
-  }
+.section__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
 
-  .header1 {
-    margin-bottom: 2rem;
-  }
+.header1 {
+  margin-bottom: 2rem;
+}
 
-  .header1 p {
-    letter-spacing: 2px;
-    font-size: 1rem;
-    font-weight: 500;
-  }
+.header1 p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
 
-  .header1 h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
-    color: #f94d00;
-  }
+.header1 h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color:#f94d00;
+}
 
+.testimonials__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  background-color: var(--extra-light);
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: gold;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card hr {
+  width: 40px;
+  margin: auto;
+  color: var(--text-light);
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
+  border: 1px solid var(--primary-color);
+}
+
+.card .name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.card .name:hover {
+  color: var(--primary-color);
+}
+
+.footer1 h4 {
+  font-family: "Noto Serif", serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.footer1 p {
+  max-width: 450px;
+  margin: auto;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer1 button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--extra-light);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (width < 900px) {
   .testimonials__grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .card {
-    padding: 2rem;
-    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    background-color: var(--extra-light);
-    border-radius: 5px;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
   }
+}
 
-  .card i {
-    font-size: 2.5rem;
-    color: gold;
+@media (width < 600px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(1, 1fr);
   }
-
-  .card p {
-    font-size: 1rem;
-    font-weight: 500;
-  }
-
-  .card hr {
-    width: 40px;
-    margin: 10px auto;
-    color: var(--text-light);
-  }
-
-  .card img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    border: 1px solid var(--primary-color);
-    margin-bottom: 10px;
-  }
-
-  .card .name {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: var(--text-light);
-    transition: 0.3s;
-  }
-
-  .card .name:hover {
-    color: var(--primary-color);
-  }
-
-  .footer1 {
+}
+footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #333;
     color: #fff;
+    position: fixed;
     width: 100%;
     bottom: 0;
-    position: fixed;
-  }
-
-  .footer1 h4 {
-    font-size: 1.25rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
-  }
-
-  .footer1 p {
-    max-width: 450px;
-    margin: auto;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    margin-bottom: 2rem;
-  }
-
-  .footer1 button {
-    padding: 1rem 2rem;
-    outline: none;
-    border: none;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--extra-light);
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  @media (max-width: 900px) {
-    .testimonials__grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .testimonials__grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    .buttons {
-      flex-direction: column;
-      align-items: flex-start;
-      margin-left: 0;
-    }
-
-    .buttons .btn1,
-    .buttons .btn2 {
-      margin-top: 10px;
-    }
-  }
+}
 </style>
