@@ -1,60 +1,56 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 :root {
-    --primary-color: #1a2c50;
-    --secondary-color: #f4f7fe;
-    --text-dark: #333333;
-    --text-light: #767268;
-    --extra-light: #ffffff;
+  --primary-color: #1a2c50;
+  --secondary-color: #f4f7fe;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --extra-light: #ffffff;
 }
-
 body {
-    font-family: "Poppins", sans-serif;
-}
+    font-family: "poppins", sans-serif;
+   
+    }
 
-.navigation {
+.navigation{
     display: flex;
     justify-content: space-between;
     height: 6vh;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(0,0,0,0.7);
     margin: auto;
-    width: 100%;
+    width:100%
+   
 }
-
-.navigation .part_1 {
+.navigation .part_1{
     display: flex;
     gap: 30px;
     color: #97a7b7;
     margin: auto;
     font-size: 1.2rem;
-    margin-left: 50px;
+    margin-left:50px;
 }
-
-.navigation .part_2 {
+.navigation .part_2{
     display: inline-flex;
     gap: 30px;
     color: #fff;
     margin: auto;
     font-size: 1.2rem;
-    margin-left: 50px;
+    margin-left:50px;
 }
-
-.navigation .part_2 .login {
+.navigation .part_2 .login{
     outline: none;
     border: none;
     color: #97a7b7;
     background: transparent;
     font-size: 1.2rem;
 }
-
-.navigation .part_2 .start {
+.navigation .part_2 .start{
     outline: none;
     border: none;
     color: #fff;
@@ -65,31 +61,29 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     padding: 1px 10px;
-    color: #000;
+    color: #000; /* Adjust this to ensure readability */
     margin: auto;
     width: 90%;
     box-sizing: border-box;
-    height: 80px;
+    height:80px;
 }
+hr{
+color:#1a2c50;
+font-size:-10rem}
 
-hr {
-    color: #1a2c50;
-    font-size: -10rem;
-}
 
 .logo p {
     height: 50px;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-left: 100px;
-    color: #f94d00;
+    font-size:2rem;
+    font-weight:600;
+    margin-left:100px;
+    color:#f94d00;
 }
 
 nav ul {
@@ -105,24 +99,22 @@ nav ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left:20px;
 }
-
 nav ul li a button {
-    padding: 3px 5px;
-    border-radius: 5px;
-    background-color: #f94d00;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 400;
+padding:3px 5px;
+border-radius:5px;
+background-color:#f94d00;
+color:white;
+font-size:1.2rem;
+font-weight:400
 }
-
 nav ul li a button:hover {
     border: 1px solid blue;
 }
 
 nav ul li a:hover {
-    color: orange;
+    color:orange;
 }
 
 main {
@@ -130,8 +122,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 120px);
-    background-color: #f4f7fe;
+    height: calc(100vh - 120px); /* Adjust based on header/footer height */
+    background-color:#f4f7fe;
 }
 
 .main-content {
@@ -149,15 +141,14 @@ main {
     margin-bottom: 20px;
     font-size: 37px;
     letter-spacing: 4px;
-    margin-left: 100px;
+    margin-left:100px;
 }
-
 .text-buttons h1 b {
-    color: #f94d00;
-}
+   color:#f94d00;
+      }
 
 .text-buttons p {
-    margin-left: 100px;
+margin-left:100px;
 }
 
 .buttons .btn1 {
@@ -168,63 +159,59 @@ main {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size:1.3rem;
+    font-weight:400;
 }
-
 .buttons .btn2 {
-    background-color: transparent;
-    border: 1px solid #f94d00;
-    padding: 15px 50px;
-    margin-right: 10px;
-    color: blue;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    font-weight: 400;
+background-color:transparent;
+border: 1px solid #f94d00;
+padding: 15px 50px;
+margin-right: 10px;
+color: blue;
+cursor: pointer;
+border-radius:5px;
+font-size:1.3rem;
+font-weight:400;
 }
-
-.buttons {
-    margin-left: 100px;
-    padding-top: 27px;
-    gap: 30px;
+.buttons{
+margin-left:100px;
+padding-top:27px;
+gap:30px;
 }
-
 .buttons .btn1:hover {
     border: 1px solid blue;
 }
 
-.illustration {
+.illustration{
     max-width: 100%;
     height: auto;
-    background-color: red;
+    background-color:red;
+}
+.illustration img  {
+width:100%;
+width:500px;
+padding-left: 10px;
 }
 
-.illustration img {
-    width: 100%;
-    width: 500px;
-    padding-left: 10px;
-}
 
-.how_it_works {
-    background: #f4f7fe;
-    margin-top: -80px;
+/*how it works section*/
+.how_it_works{
+   background: #f4f7fe;
+   margin-top:-80px;
 }
-
-.how_it_works .heading p {
+.how_it_works .heading p{
     margin-top: 80px;
     text-align: center;
     color: grey;
     font-size: 1.3rem;
 }
-
-.how_it_works .heading h2 {
+.how_it_works .heading h2{
     text-align: center;
     margin-bottom: 20px;
     color: #f94d00;
+   
 }
-
-.how_it_works .how_container {
+.how_it_works .how_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1200px;
@@ -233,11 +220,27 @@ main {
     padding: 25px;
     border-radius: 10px;
     gap: 20px;
+   
+}
+.how_it_works .how_container .how_container_details{
+    width: 100%;
+    max-width: 270px;
+   
+}
+.how_it_works .how_container .how_container_details p{
+    color: grey;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+.how_it_works .how_container .how_container_details img{
+    width: 100%;
+    width: 150px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.how_it_works .how_container .how_container_details {
-    text-align: center;
-}
+
 /*Testimonial*/
 .nav1 {
   /* font-family: 'Noto Serif', serif; */
@@ -368,12 +371,13 @@ main {
 }
 
 footer {
-    background-color: #1a2c50;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
 }
-</style>
+
+    </style>
