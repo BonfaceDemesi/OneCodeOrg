@@ -133,7 +133,10 @@ main {
 .main-content {
     display: flex;
     align-items: center;
-    width: 85%;
+    justify-content: space-between; /* Ensure spacing between text and image */
+    width: 90%;
+    max-width: 1200px; /* Constrain maximum width */
+    gap: 50px; /* Add space between text and image */
 }
 
 .text-buttons {
