@@ -68,6 +68,8 @@ header {
     width: 100%; /* Ensure it stretches to full width */
     height: 70px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 .header-container {
  display:flex;
