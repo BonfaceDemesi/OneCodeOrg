@@ -132,7 +132,6 @@ nav ul li a:hover {
 main {
     padding: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: calc(100vh - 120px); /* Adjust based on header/footer height */
     background-color: #f4f7fe;
@@ -143,12 +142,13 @@ main {
 }
 
 .main-content {
-    display: flex;
+    display: grid;
+    grid-template: 1fr 1fr;
     align-items: center;
-    justify-content: space-between; /* Ensure spacing between text and image */
     gap: 30px; /* Add space between text and image */
-    width: 85%;
-    background-color:yellow;
+    max-width: 1200px;
+    background-color: yellow;
+    margin: 0 auto;
 }
 
 .text-buttons {
@@ -200,17 +200,18 @@ main {
     border: 1px solid blue;
 }
 .illustration {
-    max-width: 100%; /* Ensure container is not wider than its parent */
+    width: 100%; /* Ensure container is not wider than its parent */
+    max-width: 700px;
     height: auto; /* Allow height to adjust based on content */
     margin: 0 auto; /* Center horizontally */
-    display: flex; /* Make the container a flex container */
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
 }
 
 .illustration img {
     width: 100%; /* Fill container horizontally */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 700px;
+    max-height: 85vh;
 }
 /*how it works section*/
 .how_it_works{
