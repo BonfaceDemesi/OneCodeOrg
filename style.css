@@ -20,6 +20,8 @@ html, body {
 }
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #f4f7fe;
+    
 }
 
 .navigation {
@@ -145,7 +147,7 @@ main {
     align-items: center;
     justify-content: space-between; /* Ensure spacing between text and image */
     gap: 30px; /* Add space between text and image */
-    width: 99%;
+    width: 85%;
     background-color:yellow;
 }
 
