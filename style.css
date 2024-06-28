@@ -66,7 +66,7 @@ body {
 
 header {
     width: 100%; /* Ensure it stretches to full width */
-    height: 70px;
+    height: 60px;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -149,28 +149,24 @@ main {
 }
 
 .text-buttons {
-    max-width: 50%;
+    max-width: 100%;
+    margin:0 auto;
 }
 
 .text-buttons h1 {
     margin-bottom: 20px;
     font-size: 37px;
     letter-spacing: 4px;
-    margin-left: 100px;
 }
 
 .text-buttons h1 b {
     color: #f94d00;
 }
 
-.text-buttons p {
-    margin-left: 100px;
-}
-
 .buttons {
-    margin-left: 100px;
+    margin:0 auto;
     padding-top: 27px;
-    gap: 30px;
+    gap: 25px;
 }
 
 .buttons .btn1 {
