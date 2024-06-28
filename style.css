@@ -145,7 +145,7 @@ main {
     align-items: center;
     justify-content: space-between; /* Ensure spacing between text and image */
     gap: 30px; /* Add space between text and image */
-    width: 95%;
+    width: 99%;
     background-color:yellow;
 }
 
@@ -209,13 +209,13 @@ main {
 .illustration img {
     width: 100%;
     max-width: 800px; /* Limit maximum width of the image */
-    max-height: 80vh;
+    max-height: 90vh;
 }
 
 /*how it works section*/
 .how_it_works{
    background: #f4f7fe;
-   margin-top:-80px;
+   margin: 0 auto;
 }
 .how_it_works .heading p{
     margin-top: 80px;
@@ -252,10 +252,7 @@ main {
 }
 .how_it_works .how_container .how_container_details img{
     width: 100%;
-    width: 150px;
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50px;
 }
 
 
