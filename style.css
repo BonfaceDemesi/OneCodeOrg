@@ -146,6 +146,7 @@ main {
     justify-content: space-between; /* Ensure spacing between text and image */
     gap: 40px; /* Add space between text and image */
     width: 85%;
+    background-color:yellow;
 }
 
 .text-buttons {
