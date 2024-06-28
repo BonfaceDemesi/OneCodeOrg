@@ -19,9 +19,8 @@ html, body {
     padding: 0;
 }
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
     background-color: #f4f7fe;
-    
 }
 
 .navigation {
@@ -72,6 +71,7 @@ header {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .header-container {
  display:flex;
@@ -199,21 +199,19 @@ main {
 .buttons .btn1:hover {
     border: 1px solid blue;
 }
-
 .illustration {
-    max-width: 800px;
-    height: auto;
-    margin:0 auto;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%; /* Ensure container is not wider than its parent */
+    height: auto; /* Allow height to adjust based on content */
+    margin: 0 auto; /* Center horizontally */
+    display: flex; /* Make the container a flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
 }
 
 .illustration img {
-    width: 100%;
-    max-width: 800px; /* Limit maximum width of the image */
-    max-height: 90vh;
+    width: 100%; /* Fill container horizontally */
+    height: auto; /* Maintain aspect ratio */
 }
-
 /*how it works section*/
 .how_it_works{
    background: #f4f7fe;
