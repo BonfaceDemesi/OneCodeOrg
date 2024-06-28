@@ -144,7 +144,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Ensure spacing between text and image */
-    gap: 10px; /* Add space between text and image */
+    gap: 40px; /* Add space between text and image */
     width: 85%;
 }
 
