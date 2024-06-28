@@ -79,7 +79,7 @@ header {
  background-color:white;
  justify-content: space-between;
  align-items: center;
- height: 70px;
+ height: 60px;
  padding: 1px 10px;
  color: #000;
  box-sizing: border-box;
@@ -137,7 +137,6 @@ main {
     background-color: #f4f7fe;
     width: 100%;
     max-width: 1200px;
-    background-color:red;
     margin: 0 auto;
 }
 
@@ -147,7 +146,6 @@ main {
     align-items: center;
     gap: 30px; /* Add space between text and image */
     max-width: 1200px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
