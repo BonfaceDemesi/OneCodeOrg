@@ -95,6 +95,8 @@ hr {
     font-size: 2rem;
     font-weight: 600;
     color: #f94d00;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
