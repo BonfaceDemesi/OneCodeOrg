@@ -5,6 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); 
+.container{
+  width:100%;
+  max-width:1200px;
+  padding:1rem;
+  margin:auto;
+}
+.gride{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:4rem;
+  margin-bottom:2rem;
+  margin-top:4rem;
+}
+  .typewriter-effect-container {
+  width: 100%;
+  max-width: 540px;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.typewriter-effect-container h2 {
+  margin: 0;
+  font-size: 40px;
+  color: #ff2323;
+}
+
+.typewriter-effect {
+  position: relative;
+}
+
+.typewriter-effect p {
+  font-size: 50px;
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  margin-top: 20px
+    line-height: 1;
+}
+
+.typewriter-effect p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.typewriter-effect p::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 110%;
+  background: #000;
+  width: 2px;
+  position: absolute;
+}
+
+@keyframes blinkAnim {
+  100% {
+    opacity: 0;
+  }
+}
+
+.typewriter-effect p.text-1::before {
+  animation: typeAnim 2s steps(8) infinite alternate;
+}
+
+.typewriter-effect p.text-1::after {
+  animation: typeAnim 2s steps(8) infinite alternate,
+    blinkAnim 1000ms linear infinite;
+}
+
+.typewriter-effect p.text-2::before {
+  animation: typeAnim 2s steps(13) infinite alternate;
+}
+
+.typewriter-effect p.text-2::after {
+  animation: typeAnim 2s steps(13) infinite alternate,
+    blinkAnim 1000ms linear infinite;
+}
+
+.typewriter-effect p.text-3::before {
+  animation: typeAnim 2s steps(12) infinite alternate;
+}
+
+.typewriter-effect p.text-3::after {
+  animation: typeAnim 2s steps(12) infinite alternate,
+    blinkAnim 1000ms linear infinite;
+}
+
+@keyframes typeAnim {
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.typewriter-effect p.active {
+  opacity: 1;
+}
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -61,6 +172,42 @@
 </head>
 <body>
     <div class="container">
+      <div class="gride">
+      <div class="typewriter-effect-container">
+      <h2>Hi, We Are</h2>
+      <span class="typewriter-effect">
+        <p class="text-1">24/7 e-News</p>
+        <p class="text-2">Company Located</p>
+        <p class="text-3">In Nairobi,<br>Kenya</p>
+      </span>
+
+<script>
+  const textAll = document.querySelectorAll(".typewriter-effect p");
+let textNo = 1;
+
+const removeTextClasses = () => {
+  textAll.forEach((t) => {
+    t.classList.remove("active");
+  });
+};
+
+textAll[0].classList.add("active");
+
+setInterval(() => {
+  removeTextClasses();
+
+  console.log("hi");
+
+  if (textNo > textAll.length - 1) {
+    textNo = 0;
+  }
+
+  textAll[textNo].classList.add("active");
+  textNo++;
+}, 4000);
+</script>
+      </div>
+      <div class="container2">
         <h2 style="text-align:center;color: #f94d00;">CONTACT US</h2>
         <p>Have questions or feedback? Fill out the form below and we'll get back to you!</p>
         <form action="submit_form.php" method="POST">
@@ -73,6 +220,8 @@
             
             <input type="submit" value="Submit">
         </form>
+        </div>
+    </div>
     </div>
 </body>
 </html>
