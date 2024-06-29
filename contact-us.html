@@ -12,8 +12,10 @@
   max-width:1200px;
   padding:1rem;
   margin:auto;
+  background-color: #f9f9f9;
 }
 .gride{
+  width:100%;
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap:4rem;
@@ -29,12 +31,14 @@
   flex-direction: column;
   box-sizing: border-box;
   font-family: "Share Tech Mono", monospace;
+  margin-top:15rem;
+  justify-content: center;
 }
 
 .typewriter-effect-container h2 {
   margin: 0;
   font-size: 40px;
-  color: #ff2323;
+  color: #f94d00;
 }
 
 .typewriter-effect {
@@ -122,14 +126,6 @@
             margin: 20px;
             background-color: #f4f7fe;
         }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
          input[type="email"], input[type="text"], textarea {
             width: calc(100% - 22px);
             padding: 10px;
@@ -178,8 +174,11 @@
       <span class="typewriter-effect">
         <p class="text-1">24/7 e-News</p>
         <p class="text-2">Company Located</p>
-        <p class="text-3">In Nairobi,<br>Kenya</p>
+        <p class="text-3">In Nairobi, Kenya</p>
       </span>
+      
+<p style="font-weight: bold; text-align: center;margin-top:20rem;">
+<span style="color: blue; font-size: 16px; font-weight: bold; text-align: center;">Have a nice day!</span></p>
 
 <script>
   const textAll = document.querySelectorAll(".typewriter-effect p");
