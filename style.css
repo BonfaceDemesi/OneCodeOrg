@@ -169,7 +169,7 @@ main {
 .text-buttons h1 {
     margin-bottom: 20px;
     font-size: 1.9rem;
-    
+    font-weight:700; 
 }
 .text-buttons p {
   font-size:1rem;
