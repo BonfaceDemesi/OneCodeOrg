@@ -168,8 +168,7 @@ main {
 
 .text-buttons h1 {
     margin-bottom: 20px;
-    font-size: 37px;
-    letter-spacing: 4px;
+    font-size: 2.5rem;
 }
 
 .text-buttons h1 b {
@@ -257,9 +256,13 @@ main {
    
 }
 .how_it_works .how_container .how_container_details p{
-    color: grey;
+  font-size:1.5rem;
+  font-weight:700;
+}
+.how_it_works .how_container .how_container_details p{
     font-size: 1rem;
     margin-top: 15px;
+    font-weight:500;
 }
 .how_it_works .how_container .how_container_details img{
     width: 100%;
