@@ -42,7 +42,6 @@ body {
     justify-content:center;
 }
 .navigation .part_1{
-  background-color: blue;
   justify-content:center;
   align-items:center;
   height:6vh;
@@ -50,7 +49,6 @@ body {
 
 .navigation .part_2 {
     color: #fff;
-    background-color: blue;
     height:6vh;
 }
 
@@ -107,7 +105,6 @@ hr {
     color: #f94d00;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
 }
 
 nav ul {
@@ -243,7 +240,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
-    background: #fff;
+    background: #ffffff;
     padding: 25px;
     border-radius: 10px;
     gap: 20px;
