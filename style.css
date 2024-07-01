@@ -50,6 +50,7 @@ body {
 
 .navigation .part_2 {
     color: #fff;
+    background-color: blue;
 }
 
 .navigation .part_2 .login {
