@@ -168,7 +168,10 @@ main {
 
 .text-buttons h1 {
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
+}
+.text-buttons p {
+  font-size:1rem;
 }
 
 .text-buttons h1 b {
@@ -255,9 +258,8 @@ main {
     max-width: 270px;
    
 }
-.how_it_works .how_container .how_container_details p{
+.how_it_works .how_container .how_container_details h2{
   font-size:1.5rem;
-  font-weight:700;
 }
 .how_it_works .how_container .how_container_details p{
     font-size: 1rem;
