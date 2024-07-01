@@ -55,6 +55,8 @@ body {
 .navigation .part_2 {
     color: #fff;
     height:6vh;
+    
+   
 }
 
 .navigation .part_2 .login {
@@ -88,7 +90,7 @@ header {
 }
 .header-container {
  display:flex;
- width:85%; 
+ width:85%;
  background-color:white;
  justify-content: space-between;
  align-items: center;
@@ -106,10 +108,10 @@ hr {
 .logo p {
     height: 60px;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 550;
     color: #f94d00;
-    justify-content: center;
     align-items: center;
+    background: blue;
 }
 
 nav ul {
@@ -122,7 +124,7 @@ nav ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 20px;
-    font-weight:550;
+    font-weight:450;
 }
 
 nav ul li a:hover {
@@ -136,6 +138,7 @@ nav ul li a:hover {
   max-width:1200px;
   padding:1rem;
   margin:auto;
+  background:red;
 }
 .gride{
   width:100%;
@@ -177,6 +180,7 @@ nav ul li a:hover {
   opacity: 0;
   margin-top: 20px
   line-height: 1;
+  padding-top:4rem;
 }
 
 .typewriter-effect p::before {
@@ -242,9 +246,10 @@ nav ul li a:hover {
 
 .typewriter-effect p.active {
   opacity: 1;
+  
 }
          input[type="email"], input[type="text"], textarea {
-            width: calc(100% - 22px);
+            width: 100%;
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
@@ -310,7 +315,7 @@ nav ul li a:hover {
     <header>
         <div class="header-container">
         <div class="logo">
-            <p>ENA COACH</p>
+            <p style="align-text:center;">ENA COACH</p>
         </div>
         <nav>
             <ul>
@@ -363,14 +368,13 @@ setInterval(() => {
 </script>
       </div>
       <div class="container2">
-        <h2 style="text-align:center;color: #f94d00;">CONTACT US</h2>
-        <p style="font-size: 1.2rem;"> Have questions or feedback? Fill out the form below and we'll get back to you!</p>
+        <p style="font-size: 40px; padding-bottom:2rem;"> Have questions or feedback? Fill out the form below and we'll get back to you!</p>
         <form action="submit_form.php" method="POST">
             <input type="email" id="email" name="email" placeholder="Your email..." required><br>
             
             <input type="text" id="phone" name="phone" placeholder="phone number..."><br>
             
-            <label for="message"><center>Message</center></label>
+            <label for="message"><p style="padding-top:0.5rem; text-align:center;">Message</center></label>
             <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
             
             <input type="submit" value="Submit">
