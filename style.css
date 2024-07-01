@@ -29,6 +29,7 @@ body {
     height: 6vh;
     background: rgba(0, 0, 0, 0.7);
     width: 100%; /* Ensure it stretches to full width */
+    align-items:center;
 }
 
 .navigation .part_1,
@@ -38,6 +39,7 @@ body {
     color: #97a7b7;
     font-size: 1.2rem;
     margin: auto 50px;
+    justify-content:center;
 }
 
 .navigation .part_2 {
