@@ -98,13 +98,18 @@ hr {
     color: #1a2c50;
 }
 
-.logo p {
+.logo {
+    display:flex;
+    align-items: center;
+    justify-content:center;
     height: 60px;
+    display:flex;
+}    
+
+.logo p {
     font-size: 2rem;
     font-weight: 550;
     color: #f94d00;
-    justify-content: center;
-    align-items: center;
 }
 
 nav ul {
