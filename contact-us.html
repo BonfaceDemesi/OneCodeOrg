@@ -12,7 +12,7 @@
   max-width:1200px;
   padding:1rem;
   margin:auto;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 .gride{
   width:100%;
@@ -150,16 +150,20 @@
             padding: 10px;
             margin-top: 10px;
             border: none;
-            background-color: #4CAF50;
-            color:#f94d00;
+            background-color: #f94d00;
+            color:white;
             cursor: pointer;
             border-radius: 5px;
-            font-size:1.1rem;
+            font-size:1.3rem;
         }
         
         input[type="submit"]:hover {
             background-color: #45a049;
         }
+        input::placeholder {
+            font-size: 1.1rem;
+        }
+
         label{
           color:#f94d00;
         }
@@ -178,7 +182,7 @@
       </span>
       
 <p style="font-weight: bold; text-align: left;margin-top:18rem;">
-<span style="color: #f94d00; font-size: 16px; font-weight: bold; text-align: center;">Exemplary Service!</span></p>
+<span style="color: #f94d00; font-size: 1.3rem; font-weight: bold; text-align: center;">Exemplary Service!</span></p>
 
 <script>
   const textAll = document.querySelectorAll(".typewriter-effect p");
@@ -207,8 +211,8 @@ setInterval(() => {
 </script>
       </div>
       <div class="container2">
-        <h2 style="text-align:center;color: #f94d00;">CONTACT US</h2>
-        <p>Have questions or feedback? Fill out the form below and we'll get back to you!</p>
+        <h2 style="text-align:center;color: #f94d00;font-size:2rem;">CONTACT US</h2>
+        <p style="font-size: 1.3rem;"> Have questions or feedback? Fill out the form below and we'll get back to you!</p>
         <form action="submit_form.php" method="POST">
             <input type="email" id="email" name="email" placeholder="Your email..." required><br>
             
@@ -222,7 +226,7 @@ setInterval(() => {
         </div>
     </div>
     <p style="font-weight: bold; text-align: center;margin-top:4rem;">
-<span style="color: blue; font-size: 16px; font-weight: bold; text-align: center;">Have a nice day!</span></p>
+<span style="color: blue; font-size: 1.3rem; font-weight: bold; text-align: center;">Have a nice day!</span></p>
 
     </div>
     
