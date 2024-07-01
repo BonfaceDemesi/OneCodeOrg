@@ -51,6 +51,7 @@ body {
 .navigation .part_2 {
     color: #fff;
     background-color: blue;
+    height:6vh;
 }
 
 .navigation .part_2 .login {
@@ -105,7 +106,8 @@ hr {
     font-weight: 600;
     color: #f94d00;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    background-color: red;
 }
 
 nav ul {
