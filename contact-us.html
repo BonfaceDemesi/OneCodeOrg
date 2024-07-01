@@ -112,16 +112,12 @@ hr {
     color: #f94d00;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
+    gap:23px;
 }
 
 nav ul li a {
@@ -152,7 +148,6 @@ nav ul li a:hover {
   max-width:1200px;
   padding:1rem;
   margin:auto;
-  background-color: #ffffff;
 }
 .gride{
   width:100%;
@@ -297,6 +292,9 @@ nav ul li a:hover {
         input::placeholder {
             font-size: 1.1rem;
         }
+        input[id="message"]::placeholder {
+            font-size: 1.1rem;
+        }
 
         label{
           color:#f94d00;
@@ -328,7 +326,7 @@ nav ul li a:hover {
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="contact-us.html">Contacts</a></li>
                 <li><a href="#about">Track</a></li>
                 <li><a href="#services">Book</a></li>
@@ -377,8 +375,8 @@ setInterval(() => {
 </script>
       </div>
       <div class="container2">
-        <h2 style="text-align:center;color: #f94d00;font-size:2rem;">CONTACT US</h2>
-        <p style="font-size: 1.3rem;"> Have questions or feedback? Fill out the form below and we'll get back to you!</p>
+        <h2 style="text-align:center;color: #f94d00;">CONTACT US</h2>
+        <p style="font-size: 1.2rem;"> Have questions or feedback? Fill out the form below and we'll get back to you!</p>
         <form action="submit_form.php" method="POST">
             <input type="email" id="email" name="email" placeholder="Your email..." required><br>
             
@@ -392,7 +390,7 @@ setInterval(() => {
         </div>
     </div>
     <p style="font-weight: bold; text-align: center;margin-top:4rem;">
-<span style="color: blue; font-size: 1.3rem; font-weight: bold; text-align: center;">Have a nice day!</span></p>
+<span style="color: blue; font-size: 1.2rem; font-weight: bold; text-align: center;">Have a nice day!</span></p>
 
     </div>
     
