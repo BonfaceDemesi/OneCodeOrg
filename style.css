@@ -42,7 +42,7 @@ body {
     justify-content:center;
 }
 ..navigation .part_1{
-  background: blue;
+  background-color: blue;
   justify-content:center;
   text-align:center;
 }
