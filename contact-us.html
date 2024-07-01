@@ -11,8 +11,142 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ena Coach</title>
     <style>
-    
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif; 
+    background-color: #f4f7fe;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%; /* Ensure it stretches to full width */
+    align-items:center;
+}
+
+.navigation .part_1,
+.navigation .part_2 {
+    display: flex;
+    gap: 30px;
+    color: #97a7b7;
+    font-size: 1.2rem;
+    margin: auto 10px;
+    justify-content:center;
+}
+.navigation .part_1{
+  background-color: blue;
+  justify-content:center;
+  align-items:center;
+  height:6vh;
+}
+
+.navigation .part_2 {
+    color: #fff;
+    background-color: blue;
+    height:6vh;
+}
+
+.navigation .part_2 .login {
+    outline: none;
+    border: none;
+    color: #97a7b7;
+    background: transparent;
+    font-size: 1.2rem;
+}
+
+.navigation .part_2 .start {
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #e9490f;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%; /* Ensure it stretches to full width */
+    height: 60px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.header-container {
+ display:flex;
+ width:85%; 
+ background-color:white;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ padding: 1px 10px;
+ color: #000;
+ box-sizing: border-box;
+ margin:0 auto;
+}
+
+hr {
+    color: #1a2c50;
+}
+
+.logo p {
+    height: 60px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f94d00;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a button {
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #f94d00;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+nav ul li a button:hover {
+    border: 1px solid blue;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+        
 .container{
   width:100%;
   max-width:1200px;
@@ -126,12 +260,6 @@
 .typewriter-effect p.active {
   opacity: 1;
 }
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f7fe;
-        }
          input[type="email"], input[type="text"], textarea {
             width: calc(100% - 22px);
             padding: 10px;
