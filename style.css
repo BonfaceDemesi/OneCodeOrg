@@ -44,7 +44,7 @@ body {
 .navigation .part_1{
   background-color: blue;
   justify-content:center;
-  text-align:center;
+  align-items:center;
   height:6vh;
 }
 
