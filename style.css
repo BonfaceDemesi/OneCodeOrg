@@ -50,6 +50,7 @@ body {
 .navigation .part_2 {
     color: #fff;
     height:6vh;
+    gap:2rem;
 }
 
 .navigation .part_2 .login {
@@ -58,6 +59,10 @@ body {
     color: #97a7b7;
     background: transparent;
     font-size: 1.2rem;
+    border:1px solid white;
+    border-radius: 5px;
+    height: 5vh;
+    width: 100px;
 }
 
 .navigation .part_2 .start {
@@ -66,7 +71,7 @@ body {
     color: #fff;
     background: #e9490f;
     font-size: 1.2rem;
-    height: 6vh;
+    height: 5vh;
     width: 150px;
     display: flex;
     justify-content: center;
