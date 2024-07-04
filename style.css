@@ -50,7 +50,9 @@ body {
 .navigation .part_2 {
     color: #fff;
     height:6vh;
-    gap:2rem;
+    gap:1.3rem;
+    justify-content:center;
+    align-items:center;
 }
 
 .navigation .part_2 .login {
@@ -76,6 +78,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 header {
