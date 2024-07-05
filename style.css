@@ -427,8 +427,7 @@ main {
   padding:2rem;
   display:flex;
   justify-content: space-between;
-  align-items: left;
-  margin: 0 auto;
+  align-items: center;
   color: #fff;
   background:#333;
 }
@@ -437,19 +436,14 @@ main {
 }
 .footerLi ul li a {
   text-decoration: none;
- color:#fff;
+  color:#fff;
 }
 .name1{
   color:orange;
 }
 .our_contacts {
   color:#f94d00;
-}
-.social_media{
-  display:flex;
-  flex-direction:column;
-}
-  
+}  
 .footerLi ul li a:hover {
   text-decoration: underline;
 }
