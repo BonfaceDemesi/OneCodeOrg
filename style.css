@@ -431,6 +431,14 @@ main {
   color: #fff;
   background:#333;
 }
+.our_company{
+  display:flex;
+  flex-direction:column;
+}
+.our_contacts{
+  display:flex;
+  flex-direction:column;
+}
 .footerLi ul li {
   list-style: none;
 }
