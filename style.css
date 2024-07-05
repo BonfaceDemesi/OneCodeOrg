@@ -426,13 +426,11 @@ main {
   width:100%;
   padding:2rem;
   display:flex;
-  flex-direction:column;
   justify-content: space-between;
   align-items: left;
   margin: 0 auto;
-   color: #fff;
-    width: 100%;
-    background:#333;
+  color: #fff;
+  background:#333;
 }
 .footerLi ul li {
   list-style: none;
@@ -445,8 +443,23 @@ main {
   color:orange;
 }
 .our_contacts {
-  color:blue;
+  color:#f94d00;
+  display:flex;
+  flex-direction:column;
 }
+.our_company{
+  display:flex;
+  flex-direction:column;
+}
+.top_towns{
+  display:flex;
+  flex-direction:column;
+}
+.social_media{
+  display:flex;
+  flex-direction:column;
+}
+  
 .footerLi ul li a:hover {
   text-decoration: underline;
 }
