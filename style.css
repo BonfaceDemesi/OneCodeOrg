@@ -422,13 +422,35 @@ main {
   }
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
+.footer_container{
+  width:100%;
+  padding:2rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: left;
+  margin: 0 auto;
+   color: #fff;
     width: 100%;
-    bottom: 0;
+    background:#333;
+}
+.footerLi ul li {
+  list-style: none;
+}
+.footerLi ul li a {
+  text-decoration: none;
+ color:#fff;
+}
+.name1{
+  color:orange;
+}
+.our_contacts {
+  color:blue;
+}
+.footerLi ul li a:hover {
+  text-decoration: underline;
+}
+.footerLi ul li{
+  cursor:pointer;
 }
 
     </style>
