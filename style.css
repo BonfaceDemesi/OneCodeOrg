@@ -421,39 +421,49 @@ main {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-footer{
-  width:100%;
-  padding:1rem;
-  text-align:center;
-  margin: auto;
-}
 
-.futa_container{
-  width:100%;
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  color: #fff;
-  background:#333;
-  gap:2rem;
-}
-.footerLi ul li {
-  list-style: none;
-}
-.footerLi ul li a {
-  text-decoration: none;
-  color:#fff;
-}
-.name1{
-  color:orange;
-}
-.our_contacts {
-  color:#f94d00;
-}  
-.footerLi ul li a:hover {
-  text-decoration: underline;
-}
-.footerLi ul li{
-  cursor:pointer;
-}
+footer {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .futa_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+    background: #333;
+    gap: 2rem;
+  }
+
+  .footerLi ul {
+    padding: 0;
+  }
+
+  .footerLi ul li {
+    list-style: none;
+  }
+
+  .footerLi ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .name1 {
+    color: orange;
+  }
+
+  .our_contacts {
+    color: #f94d00;
+  }
+
+  .footerLi ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .footerLi ul li {
+    cursor: pointer;
+  }
 
     </style>
