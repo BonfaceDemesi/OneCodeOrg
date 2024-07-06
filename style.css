@@ -422,19 +422,19 @@ main {
   }
 }
 
-footer {
+ footer {
     width: 100%;
     text-align: center;
     margin: auto;
+    background: #333;
+    color: #fff;
   }
 
   .futa_container {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    color: #fff;
-    background: #333;
     gap: 2rem;
+    padding: 1rem;
   }
 
   .footerLi ul {
@@ -443,6 +443,7 @@ footer {
 
   .footerLi ul li {
     list-style: none;
+    margin-bottom: 0.5rem;
   }
 
   .footerLi ul li a {
