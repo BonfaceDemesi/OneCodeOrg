@@ -429,14 +429,15 @@ main {
     color: #fff;
     justify-content:center;
     align-items:center;
-   background:red;
+   padding:1rem;
   }
 
   .futa_container {
+    width:100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    padding: 1rem;
+    background:blue;
   }
 
   .footerLi ul {
