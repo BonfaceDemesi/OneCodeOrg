@@ -427,6 +427,7 @@ main {
     margin: auto;
     background: #333;
     color: #fff;
+    justify-content:center
   }
 
   .futa_container {
@@ -438,6 +439,7 @@ main {
 
   .footerLi ul {
     padding: 0;
+    
   }
 
   .footerLi ul li {
@@ -448,14 +450,16 @@ main {
   .footerLi ul li a {
     text-decoration: none;
     color: #fff;
+    font-size:1rem;
   }
 
   .name1 {
     color: orange;
+    font-size:1rem;
   }
 
   .our_contacts {
-    color: #f94d00;
+    color:#f94d00;
   }
 
   .footerLi ul li a:hover {
