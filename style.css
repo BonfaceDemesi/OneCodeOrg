@@ -433,7 +433,7 @@ main {
   }
 
   .futa_container {
-    width:100%;
+    width:90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -441,7 +441,7 @@ main {
 
   .footerLi ul {
     padding-left:9rem;
-    backround:red;
+    background:red;
     
   }
 
