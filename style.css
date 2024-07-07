@@ -430,13 +430,15 @@ main {
     justify-content:center;
     align-items:center;
     padding:1rem;
+    box-sizing: border-box;
   }
 
   .futa_container {
-    width:90%;
+    width:100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    margin:auto;
   }
 
   .footerLi ul {
@@ -459,10 +461,6 @@ main {
   .name1 {
     color: orange;
     font-size:1rem;
-  }
-
-  .our_contacts {
-    color:#f94d00;
   }
 
   .footerLi ul li a:hover {
