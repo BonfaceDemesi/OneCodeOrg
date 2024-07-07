@@ -442,9 +442,7 @@ main {
   }
 
   .footerLi ul {
-    padding-left:9rem;
-    background:red;
-    
+    padding-left:9rem; 
   }
 
   .footerLi ul li {
