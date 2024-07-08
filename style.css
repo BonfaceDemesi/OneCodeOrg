@@ -268,6 +268,7 @@ main {
 
 .header11 {
   margin-bottom: 2rem;
+  margin-top:-2rem;
 }
 
 .header11 p {
@@ -316,7 +317,6 @@ main {
   height: 150px;
   margin: auto;
   border-radius: 5px;
-  border: 1px solid var(--primary-color);
 }
 
 .card1 .name {
