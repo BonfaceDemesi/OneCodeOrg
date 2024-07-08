@@ -335,8 +335,12 @@ main {
    background: #f4f7fe;
    margin: 0 auto;
 }
+.heading{
+  margin-bottom: 2rem;
+  margin-top: 60px; 
+}
+
 .how_it_works .heading p{
-    margin-top: 20px;
     text-align: center;
     color: grey;
     font-size: 1.3rem;
@@ -400,7 +404,6 @@ main {
 .header1 {
   margin-bottom: 2rem;
   margin-top: 60px;
-  background:red;
 }
 
 .header1 p {
