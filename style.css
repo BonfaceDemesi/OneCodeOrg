@@ -246,6 +246,90 @@ main {
     max-width: 700px;
     max-height: 85vh;
 }
+
+/*Our services*/
+.nav11 {
+  /* font-family: 'Noto Serif', serif; */
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.section__container1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header11 {
+  margin-bottom: 2rem;
+}
+
+.header11 p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header11 h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color:#f94d00;
+}
+
+.testimonials__grid1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card1 {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  background-color: var(--extra-light);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card1 p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card1 hr {
+  width: 40px;
+  margin: auto;
+  color: var(--text-light);
+}
+
+.card1 img {
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+
+.card1 .name {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f94d00;
+  transition: 0.3s;
+}
+
+.card1 .name:hover {
+  color: var(--primary-color);
+}
+
 /*how it works section*/
 .how_it_works{
    background: #f4f7fe;
