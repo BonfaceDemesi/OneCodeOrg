@@ -370,6 +370,7 @@ main {
     font-size: 1rem;
     margin-top: 15px;
     font-weight:500;
+    color: var(--primary-color);
 }
 .how_it_works .how_container .how_container_details img{
     width: 100%;
